@@ -1,0 +1,21 @@
+{
+  "name": "@brunomouradev/themes",
+  "version": "0.1.0",
+  "description": "Temas (CSS custom properties) para os componentes @brunomouradev.",
+  "license": "MIT",
+  "author": "brunomouradev",
+  "files": [
+    "*.css"
+  ],
+  "exports": {
+    "./light.css": "./light.css",
+    "./dark.css": "./dark.css",
+    "./auto.css": "./auto.css"
+  },
+  "sideEffects": [
+    "*.css"
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
+}

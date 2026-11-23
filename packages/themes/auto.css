@@ -1,0 +1,18 @@
+/* @brunomouradev/themes — segue o tema do sistema operacional */
+@import "./light.css";
+
+@media (prefers-color-scheme: dark) {
+  :root:not(.bm-theme-light) {
+    --bm-color-bg: #161b22;
+    --bm-color-bg-alt: #1c222b;
+    --bm-color-bg-header: #21262d;
+    --bm-color-bg-hover: #1f2a3a;
+    --bm-color-bg-selected: #23395b;
+    --bm-color-text: #e6edf3;
+    --bm-color-text-muted: #8d96a0;
+    --bm-color-border: #30363d;
+    --bm-color-primary: #4493f8;
+    --bm-color-primary-text: #0d1117;
+    --bm-color-focus: #4493f866;
+  }
+}

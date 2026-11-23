@@ -1,0 +1,31 @@
+{
+  "name": "brunomouradev-ui",
+  "private": true,
+  "description": "Biblioteca de componentes (Web Components) estilo DevExpress: DataGrid, PivotGrid e afins.",
+  "workspaces": [
+    "packages/*",
+    "playground"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "predev": "node scripts/check-node.cjs",
+    "dev": "npm run dev -w playground",
+    "prebuild": "node scripts/check-node.cjs",
+    "build": "npm run build -w @brunomouradev/data-grid && npm run build -w @brunomouradev/pivot-grid && npm run build -w @brunomouradev/tree-list",
+    "pretest": "node scripts/check-node.cjs",
+    "test": "npm run test -w @brunomouradev/data-grid -w @brunomouradev/pivot-grid -w @brunomouradev/tree-list",
+    "pretypecheck": "node scripts/check-node.cjs",
+    "typecheck": "npm run typecheck -w @brunomouradev/data-grid -w @brunomouradev/pivot-grid -w @brunomouradev/tree-list",
+    "bump": "node scripts/bump.cjs",
+    "release": "npm run build && npm test && npm run check:compat && npm publish -w @brunomouradev/data-grid -w @brunomouradev/pivot-grid -w @brunomouradev/tree-list",
+    "check:compat": "npm --prefix compat/ts41 install --no-audit --no-fund --silent && node compat/ts41/node_modules/typescript/bin/tsc -p compat/ts41"
+  },
+  "devDependencies": {
+    "@changesets/cli": "2.27.9",
+    "typescript": "5.6.3",
+    "vite": "5.4.11",
+    "vitest": "2.1.8"
+  }
+}

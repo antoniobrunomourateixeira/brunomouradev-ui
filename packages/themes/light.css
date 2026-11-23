@@ -1,0 +1,21 @@
+/* @brunomouradev/themes — light
+   Opcional: fixa as cores em todas as grids e vence o atributo/configure de tema.
+   Para seguir o Bootstrap/Tailwind/Material, use configure({ theme }) em vez deste arquivo. */
+:root,
+.bm-theme-light {
+  --bm-font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --bm-font-size: 14px;
+  --bm-radius: 6px;
+
+  --bm-color-bg: #ffffff;
+  --bm-color-bg-alt: #f7f8fa;
+  --bm-color-bg-header: #f1f3f6;
+  --bm-color-bg-hover: #eef3fd;
+  --bm-color-bg-selected: #dbe7fc;
+  --bm-color-text: #1f2328;
+  --bm-color-text-muted: #636c76;
+  --bm-color-border: #d8dee4;
+  --bm-color-primary: #1f6feb;
+  --bm-color-primary-text: #ffffff;
+  --bm-color-focus: #1f6feb66;
+}

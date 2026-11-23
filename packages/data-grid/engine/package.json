@@ -1,0 +1,8 @@
+{
+  "name": "@brunomouradev/data-grid/engine",
+  "private": true,
+  "main": "../dist/engine.js",
+  "module": "../dist/engine.js",
+  "types": "../dist/types/engine/index.d.ts",
+  "sideEffects": false
+}

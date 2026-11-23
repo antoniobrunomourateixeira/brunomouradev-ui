@@ -1,0 +1,14 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "rootDir": "src",
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "declarationDir": "dist/types",
+    "noEmit": false,
+    "paths": {
+      "@brunomouradev/data-grid/engine": ["../data-grid/dist/types/engine/index.d.ts"]
+    }
+  },
+  "include": ["src"]
+}

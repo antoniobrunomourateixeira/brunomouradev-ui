@@ -1,0 +1,11 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "rootDir": "..",
+    "types": [],
+    "paths": {
+      "@brunomouradev/data-grid/engine": ["../data-grid/src/engine/index.ts"]
+    }
+  },
+  "include": ["src", "test"]
+}

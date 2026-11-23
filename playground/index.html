@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Playground · @brunomouradev/data-grid</title>
+    <style>
+      :root {
+        --pg-bg: #f4f5f7;
+        --pg-text: #1f2328;
+        --pg-muted: #636c76;
+        --pg-link: #1f6feb;
+        color-scheme: light;
+      }
+      :root.pg-dark {
+        --pg-bg: #0d1117;
+        --pg-text: #e6edf3;
+        --pg-muted: #8d96a0;
+        --pg-link: #4493f8;
+        color-scheme: dark;
+      }
+      body {
+        margin: 0;
+        padding: 24px;
+        font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+        background: var(--pg-bg);
+        color: var(--pg-text);
+      }
+      header {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        flex-wrap: wrap;
+        margin-bottom: 16px;
+      }
+      h1 {
+        font-size: 20px;
+        margin: 0 auto 0 0;
+      }
+      .controls {
+        display: flex;
+        gap: 12px;
+        flex-wrap: wrap;
+        font-size: 13px;
+      }
+      .controls label {
+        display: inline-flex;
+        align-items: center;
+        gap: 4px;
+      }
+      bm-data-grid {
+        height: 620px;
+      }
+      /* Exemplo de rowClass / cssClass: o CSS da página alcança a grid pelos parts */
+      bm-data-grid::part(titulo-33) {
+        --bm-row-bg: rgba(47, 158, 68, 0.16); /* vale também nas colunas fixas */
+      }
+      bm-data-grid::part(valor-alto) {
+        color: #2b8a3e;
+        font-weight: 600;
+      }
+      #log {
+        margin-top: 12px;
+        font: 12px ui-monospace, monospace;
+        color: var(--pg-muted);
+        min-height: 1.5em;
+      }
+      @media (max-width: 600px) {
+        body { padding: 12px; }
+      }
+      .pg-menu summary { cursor: pointer; list-style: none; border: 1px solid #466eb0; color: #466eb0; border-radius: 3px; padding: 0 8px; display: inline-block; }
+      .pg-menu-itens { position: absolute; background: #fff; border: 1px solid #ccc; padding: 4px; z-index: 10; }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>@brunomouradev/data-grid</h1>
+      <nav><a href="/" style="color:var(--pg-link);margin-right:12px;font-size:14px">DataGrid</a><a href="/pivot.html" style="color:var(--pg-link);font-size:14px">PivotGrid</a><a href="/tree.html" style="color:var(--pg-link);margin-left:12px;font-size:14px">TreeList</a></nav>
+      <div class="controls">
+        <label><input type="checkbox" id="opt-filter" checked /> Filter row</label>
+        <label><input type="checkbox" id="opt-search" checked /> Busca</label>
+        <label><input type="checkbox" id="opt-alt" checked /> Linhas alternadas</label>
+        <label><input type="checkbox" id="opt-collines" /> Linhas de coluna</label>
+        <label><input type="checkbox" id="opt-virtual" /> Rolagem virtual (100 mil)</label>
+        <label><input type="checkbox" id="opt-remote" /> Dados do servidor (simulado)</label>
+        
+        <label>
+          Seleção
+          <select id="opt-selection">
+            <option value="none">nenhuma</option>
+            <option value="single">única</option>
+            <option value="multiple" selected>múltipla</option>
+          </select>
+        </label>
+      </div>
+    </header>
+
+    <bm-data-grid id="grid" key-expr="id" show-filter-row show-search-panel show-export-button column-chooser-enabled allow-column-reordering allow-column-resizing show-group-panel show-header-filter show-filter-panel row-alternation-enabled selection-mode="multiple"></bm-data-grid>
+    <div id="log"></div>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

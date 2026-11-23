@@ -1,0 +1,20 @@
+{
+  "//": "Confere se os tipos publicados abrem no TypeScript 4.1 (Angular 11). Rode: npm run check:compat",
+  "compilerOptions": {
+    "target": "es2015",
+    "module": "es2020",
+    "moduleResolution": "node",
+    "lib": [
+      "es2018",
+      "dom"
+    ],
+    "strict": true,
+    "skipLibCheck": true,
+    "experimentalDecorators": true,
+    "noEmit": true,
+    "types": []
+  },
+  "files": [
+    "consumer.ts"
+  ]
+}

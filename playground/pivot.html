@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Playground · @brunomouradev/pivot-grid</title>
+    <style>
+      :root {
+        --pg-bg: #f4f5f7;
+        --pg-text: #1f2328;
+        --pg-muted: #636c76;
+        --pg-link: #1f6feb;
+        color-scheme: light;
+      }
+      :root.pg-dark {
+        --pg-bg: #0d1117;
+        --pg-text: #e6edf3;
+        --pg-muted: #8d96a0;
+        --pg-link: #4493f8;
+        color-scheme: dark;
+      }
+      body {
+        margin: 0;
+        padding: 24px;
+        font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+        background: var(--pg-bg);
+        color: var(--pg-text);
+      }
+      header {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        flex-wrap: wrap;
+        margin-bottom: 16px;
+      }
+      h1 {
+        font-size: 20px;
+        margin: 0 auto 0 0;
+      }
+      nav a {
+        color: var(--pg-link);
+        margin-right: 12px;
+        font-size: 14px;
+      }
+      .controls {
+        display: flex;
+        gap: 12px;
+        flex-wrap: wrap;
+        font-size: 13px;
+      }
+      bm-pivot-grid {
+        height: 680px;
+      }
+      #log {
+        margin-top: 12px;
+        font: 12px ui-monospace, monospace;
+        color: var(--pg-muted);
+        min-height: 1.5em;
+        white-space: pre-wrap;
+      }
+      @media (max-width: 600px) {
+        body { padding: 12px; }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>@brunomouradev/pivot-grid</h1>
+      <nav><a href="/">DataGrid</a><a href="/pivot.html">PivotGrid</a><a href="/tree.html" style="color:var(--pg-link);margin-left:12px;font-size:14px">TreeList</a></nav>
+      <div class="controls">
+        <label><input type="checkbox" id="opt-panel" checked /> Painel de campos</label>
+        <label><input type="checkbox" id="opt-coltotals" checked /> Subtotais de coluna</label>
+        <label><input type="checkbox" id="opt-tabular" /> Layout tabular</label>
+        <label><input type="checkbox" id="opt-bars" /> Barras</label>
+        <label><input type="checkbox" id="opt-heat" /> Cores</label>
+        <label><input type="checkbox" id="opt-top" /> Top 5 UFs</label>
+        <label>Mostrar como
+          <select id="opt-mode">
+            <option value="absolute">valor</option>
+            <option value="percentOfGrandTotal">% do total</option>
+            <option value="percentOfColumnTotal">% da coluna</option>
+            <option value="percentOfParentRow">% do grupo</option>
+            <option value="differenceFromPrevious">diferença do anterior</option>
+            <option value="runningTotal">acumulado</option>
+          </select>
+        </label>
+        
+      </div>
+    </header>
+
+    <bm-pivot-grid id="pivot" show-field-panel show-export-button show-expand-buttons></bm-pivot-grid>
+    <div id="log">Dica: arraste os campos entre as áreas; duplo clique numa célula mostra os registros (drill down).</div>
+
+    <script type="module" src="/src/pivot.ts"></script>
+  </body>
+</html>

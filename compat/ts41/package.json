@@ -1,0 +1,11 @@
+{
+  "name": "compat-ts41",
+  "private": true,
+  "description": "Só para o check:compat: TypeScript 4.1 isolado (o mesmo do Angular 11), sem mexer no tsc da raiz.",
+  "devDependencies": {
+    "typescript": "4.1.6"
+  },
+  "dependencies": {
+    "brunomouradev-ui": "file:../.."
+  }
+}
