@@ -1,6 +1,6 @@
 # @brunomouradev/pivot-grid
 
-> Documentação completa e atualizada (todas as propriedades, métodos e eventos): [DOCUMENTACAO.md](../../DOCUMENTACAO.md#5-pivotgrid)
+> Documentação completa e atualizada (todas as propriedades, métodos e eventos): [DOCUMENTACAO.md](https://github.com/antoniobrunomourateixeira/brunomouradev-ui/blob/main/DOCUMENTACAO.md#5-pivotgrid)
 
 Tabela dinâmica (pivot) em **Web Component** (`<bm-pivot-grid>`), no estilo do dxPivotGrid da DevExpress. Funciona em Angular (inclusive 11), React, Vue ou HTML puro.
 

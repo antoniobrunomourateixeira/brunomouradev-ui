@@ -1,8 +1,21 @@
 # @brunomouradev/data-grid
 
-> Documentação completa e atualizada (todas as propriedades, métodos e eventos): [DOCUMENTACAO.md](../../DOCUMENTACAO.md#4-datagrid)
+> Documentação completa e atualizada (todas as propriedades, métodos e eventos): [DOCUMENTACAO.md](https://github.com/antoniobrunomourateixeira/brunomouradev-ui/blob/main/DOCUMENTACAO.md#4-datagrid)
 
 DataGrid em **Web Component** (`<bm-data-grid>`), no estilo DevExpress. Funciona em Angular (inclusive 11), React, Vue ou HTML puro.
+
+- **Código-fonte:** [github.com/antoniobrunomourateixeira/brunomouradev-ui](https://github.com/antoniobrunomourateixeira/brunomouradev-ui)
+- **Exemplo completo (Angular 20, com todas as opções e o código em Angular, React, Vue e HTML puro):** [github.com/antoniobrunomourateixeira/datagrid-prototipo](https://github.com/antoniobrunomourateixeira/datagrid-prototipo)
+
+![DataGrid: protótipo com todas as opções](https://raw.githubusercontent.com/antoniobrunomourateixeira/brunomouradev-ui/main/docs/prints/01-visao-geral.png)
+
+| Bootstrap 5 escuro, agrupado | Material, filtros e regras de linha |
+|---|---|
+| ![Tema escuro agrupado](https://raw.githubusercontent.com/antoniobrunomourateixeira/brunomouradev-ui/main/docs/prints/02-tema-escuro-agrupado.png) | ![Material com filtros](https://raw.githubusercontent.com/antoniobrunomourateixeira/brunomouradev-ui/main/docs/prints/03-material-filtros-regras.png) |
+
+| 100 mil linhas com rolagem virtual | Código gerado e eventos |
+|---|---|
+| ![100 mil linhas](https://raw.githubusercontent.com/antoniobrunomourateixeira/brunomouradev-ui/main/docs/prints/05-100-mil-linhas.png) | ![Código e eventos](https://raw.githubusercontent.com/antoniobrunomourateixeira/brunomouradev-ui/main/docs/prints/04-codigo-e-eventos.png) |
 
 - Ordenação (Shift+clique para ordenar por várias colunas)
 - Filter row por coluna (números aceitam `>100`, `<=50`, `<>0`; datas e boolean têm seletor próprio)

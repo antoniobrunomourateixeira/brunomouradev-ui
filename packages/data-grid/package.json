@@ -1,9 +1,18 @@
 {
   "name": "@brunomouradev/data-grid",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "DataGrid Web Component (estilo DevExpress) — ordenação, filtro, busca, paginação, seleção, totais e exportação CSV. Funciona em Angular, React, Vue ou HTML puro.",
   "license": "MIT",
   "author": "brunomouradev",
+  "homepage": "https://github.com/antoniobrunomourateixeira/brunomouradev-ui/tree/main/packages/data-grid#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antoniobrunomourateixeira/brunomouradev-ui.git",
+    "directory": "packages/data-grid"
+  },
+  "bugs": {
+    "url": "https://github.com/antoniobrunomourateixeira/brunomouradev-ui/issues"
+  },
   "type": "module",
   "main": "./dist/index.umd.cjs",
   "module": "./dist/index.js",

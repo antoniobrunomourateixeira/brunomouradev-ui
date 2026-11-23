@@ -1,9 +1,18 @@
 {
   "name": "@brunomouradev/tree-list",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "TreeList Web Component (estilo DevExpress) — tabela em árvore com expandir/recolher, ordenação, filtro, busca, seleção em cascata, totais por nível e exportação Excel/CSV. Funciona em Angular, React, Vue ou HTML puro.",
   "license": "MIT",
   "author": "brunomouradev",
+  "homepage": "https://github.com/antoniobrunomourateixeira/brunomouradev-ui/tree/main/packages/tree-list#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antoniobrunomourateixeira/brunomouradev-ui.git",
+    "directory": "packages/tree-list"
+  },
+  "bugs": {
+    "url": "https://github.com/antoniobrunomourateixeira/brunomouradev-ui/issues"
+  },
   "type": "module",
   "main": "./dist/index.umd.cjs",
   "module": "./dist/index.js",
@@ -42,7 +51,7 @@
     "typecheck": "tsc -p tsconfig.json --noEmit"
   },
   "dependencies": {
-    "@brunomouradev/data-grid": "0.1.4",
+    "@brunomouradev/data-grid": "0.1.5",
     "lit": "3.2.1"
   },
   "publishConfig": {
