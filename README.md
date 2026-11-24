@@ -7,6 +7,7 @@ O visual se adapta ao projeto: `configure({ theme: 'bootstrap4' | 'bootstrap5' |
 ## Links
 
 - **Este projeto (código-fonte):** https://github.com/antoniobrunomourateixeira/brunomouradev-ui
+- **Exemplo rodando online:** https://antoniobrunomourateixeira.github.io/datagrid-prototipo/
 - **Exemplo completo da DataGrid** (Angular 20, todas as opções, métodos, eventos e o código em Angular, React, Vue e HTML puro): https://github.com/antoniobrunomourateixeira/datagrid-prototipo
 - **npm:** [@brunomouradev/data-grid](https://www.npmjs.com/package/@brunomouradev/data-grid) · [@brunomouradev/pivot-grid](https://www.npmjs.com/package/@brunomouradev/pivot-grid) · [@brunomouradev/tree-list](https://www.npmjs.com/package/@brunomouradev/tree-list)
 
