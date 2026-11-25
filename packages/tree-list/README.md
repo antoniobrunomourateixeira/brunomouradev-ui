@@ -1,6 +1,6 @@
 # @brunomouradev/tree-list
 
-Tabela em árvore (Web Component `<bm-tree-list>`, estilo DevExpress) para dados hierárquicos: plano de contas, centros de custo, categorias, organograma. Funciona em Angular (11+), React, Vue ou HTML puro.
+Tabela em árvore (Web Component `<bm-tree-list>`) para dados hierárquicos: plano de contas, centros de custo, categorias, organograma. Funciona em Angular (11+), React, Vue ou HTML puro.
 
 > Documentação completa (todas as propriedades, métodos e eventos): [DOCUMENTACAO.md](https://github.com/antoniobrunomourateixeira/brunomouradev-ui/blob/main/DOCUMENTACAO.md#6-treelist)
 

@@ -1,7 +1,7 @@
 {
   "name": "brunomouradev-ui",
   "private": true,
-  "description": "Biblioteca de componentes (Web Components) estilo DevExpress: DataGrid, PivotGrid e afins.",
+  "description": "Biblioteca de componentes de tabela (Web Components) para sistemas corporativos: DataGrid, PivotGrid e TreeList.",
   "workspaces": [
     "packages/*",
     "playground"

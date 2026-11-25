@@ -1,7 +1,7 @@
 {
   "name": "@brunomouradev/pivot-grid",
   "version": "0.1.5",
-  "description": "PivotGrid Web Component (estilo DevExpress) — tabela dinâmica com hierarquias, subtotais, filtros, arrastar campos entre áreas e exportação CSV. Funciona em Angular, React, Vue ou HTML puro.",
+  "description": "PivotGrid Web Component — tabela dinâmica com hierarquias, subtotais, filtros, arrastar campos entre áreas e exportação CSV. Funciona em Angular, React, Vue ou HTML puro.",
   "license": "MIT",
   "author": "brunomouradev",
   "homepage": "https://github.com/antoniobrunomourateixeira/brunomouradev-ui/tree/main/packages/pivot-grid#readme",

@@ -2,7 +2,7 @@
 
 > Documentação completa e atualizada (todas as propriedades, métodos e eventos): [DOCUMENTACAO.md](https://github.com/antoniobrunomourateixeira/brunomouradev-ui/blob/main/DOCUMENTACAO.md#4-datagrid)
 
-DataGrid em **Web Component** (`<bm-data-grid>`), no estilo DevExpress. Funciona em Angular (inclusive 11), React, Vue ou HTML puro.
+DataGrid em **Web Component** (`<bm-data-grid>`) para sistemas corporativos. Funciona em Angular (inclusive 11), React, Vue ou HTML puro.
 
 - **Código-fonte:** [github.com/antoniobrunomourateixeira/brunomouradev-ui](https://github.com/antoniobrunomourateixeira/brunomouradev-ui)
 - **Exemplo rodando online:** [https://antoniobrunomourateixeira.github.io/brunomouradev-ui-demo/#/datagrid](https://antoniobrunomourateixeira.github.io/brunomouradev-ui-demo/#/datagrid)

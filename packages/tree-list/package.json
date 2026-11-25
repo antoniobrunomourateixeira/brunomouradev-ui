@@ -1,7 +1,7 @@
 {
   "name": "@brunomouradev/tree-list",
   "version": "0.1.5",
-  "description": "TreeList Web Component (estilo DevExpress) — tabela em árvore com expandir/recolher, ordenação, filtro, busca, seleção em cascata, totais por nível e exportação Excel/CSV. Funciona em Angular, React, Vue ou HTML puro.",
+  "description": "TreeList Web Component — tabela em árvore com expandir/recolher, ordenação, filtro, busca, seleção em cascata, totais por nível e exportação Excel/CSV. Funciona em Angular, React, Vue ou HTML puro.",
   "license": "MIT",
   "author": "brunomouradev",
   "homepage": "https://github.com/antoniobrunomourateixeira/brunomouradev-ui/tree/main/packages/tree-list#readme",

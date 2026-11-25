@@ -1,6 +1,6 @@
 # brunomouradev-ui
 
-Biblioteca de componentes em **Web Components** (Lit + TypeScript), no estilo DevExpress. Os componentes não dependem de framework e rodam em Angular (11+), React, Vue ou HTML puro.
+Biblioteca de componentes de tabela para sistemas corporativos, em **Web Components** (Lit + TypeScript). Os componentes não dependem de framework e rodam em Angular (11+), React, Vue ou HTML puro.
 
 O visual se adapta ao projeto: `configure({ theme: 'bootstrap4' | 'bootstrap5' | 'tailwind' | 'material' })`, com claro/escuro, densidade e variáveis CSS para customizar.
 

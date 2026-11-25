@@ -1,6 +1,6 @@
 # brunomouradev-ui — Documentação completa
 
-Biblioteca de componentes de tabela no estilo DevExpress, feita com **Web Components** (Lit + TypeScript). Funciona em Angular (11+), React, Vue ou HTML puro, sem depender de framework.
+Biblioteca de componentes de tabela para sistemas corporativos, feita com **Web Components** (Lit + TypeScript). Funciona em Angular (11+), React, Vue ou HTML puro, sem depender de framework.
 
 | Pacote | Tag | Para quê |
 |---|---|---|
