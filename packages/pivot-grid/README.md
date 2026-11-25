@@ -14,6 +14,10 @@ Tabela dinâmica (pivot) em **Web Component** (`<bm-pivot-grid>`), no estilo do 
 |---|---|
 | ![Pivot tabular](https://raw.githubusercontent.com/antoniobrunomourateixeira/brunomouradev-ui/main/docs/prints/07-pivot-tabular-cores.png) | ![Drill down](https://raw.githubusercontent.com/antoniobrunomourateixeira/brunomouradev-ui/main/docs/prints/08-pivot-drill-down.png) |
 
+| Cobrança: saldo por faixa de atraso | Cobrança: recuperação por canal |
+|---|---|
+| ![Cobrança: saldo](https://raw.githubusercontent.com/antoniobrunomourateixeira/brunomouradev-ui/main/docs/prints/09-cobranca-saldo-por-faixa.png) | ![Cobrança: recuperação](https://raw.githubusercontent.com/antoniobrunomourateixeira/brunomouradev-ui/main/docs/prints/10-cobranca-recuperacao-por-canal.png) |
+
 - Hierarquias de linhas e colunas com expandir e recolher, inclusive "expandir tudo"
 - Subtotais e total geral de linhas e colunas
 - Dois layouts de linhas: em árvore (uma coluna com recuo, subtotal na linha do grupo) ou tabular (uma coluna por campo, subtotal numa linha "X Total" abaixo do grupo)

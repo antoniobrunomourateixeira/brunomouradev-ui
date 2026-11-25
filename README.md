@@ -29,6 +29,10 @@ O visual se adapta ao projeto: `configure({ theme: 'bootstrap4' | 'bootstrap5' |
 |---|---|
 | ![Pivot tabular](docs/prints/07-pivot-tabular-cores.png) | ![Drill down](docs/prints/08-pivot-drill-down.png) |
 
+| Cobrança: saldo por faixa de atraso | Cobrança: recuperação por canal |
+|---|---|
+| ![Cobrança: saldo](docs/prints/09-cobranca-saldo-por-faixa.png) | ![Cobrança: recuperação](docs/prints/10-cobranca-recuperacao-por-canal.png) |
+
 | Pacote | Tag | O que faz |
 |---|---|---|
 | [`@brunomouradev/data-grid`](packages/data-grid) | `<bm-data-grid>` | Ordenação, filtros (linha com operadores, funil, busca, barra de filtros), agrupamento, paginação e rolagem virtual, seleção, totais, colunas (seletor, arrastar, redimensionar, fixar), templates de célula, estado salvo, dados do servidor, teclado e Ctrl+C, regras de linha, Excel e CSV |
