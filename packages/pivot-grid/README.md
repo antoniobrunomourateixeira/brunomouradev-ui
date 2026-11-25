@@ -5,7 +5,7 @@
 Tabela dinâmica (pivot) em **Web Component** (`<bm-pivot-grid>`), com hierarquias, subtotais e painel de campos para arrastar. Funciona em Angular (inclusive 11), React, Vue ou HTML puro.
 
 - **Código-fonte:** [github.com/antoniobrunomourateixeira/brunomouradev-ui](https://github.com/antoniobrunomourateixeira/brunomouradev-ui)
-- **Exemplo rodando online:** [https://antoniobrunomourateixeira.github.io/brunomouradev-ui-demo/#/pivot](https://antoniobrunomourateixeira.github.io/brunomouradev-ui-demo/#/pivot)
+- **Exemplo rodando online:** [vendas](https://antoniobrunomourateixeira.github.io/brunomouradev-ui-demo/#/pivot/vendas) · [carteira de cobrança](https://antoniobrunomourateixeira.github.io/brunomouradev-ui-demo/#/pivot/cobranca)
 - **Código do exemplo (Angular 20, todas as opções e o código em Angular, React, Vue e HTML puro):** [github.com/antoniobrunomourateixeira/brunomouradev-ui-demo](https://github.com/antoniobrunomourateixeira/brunomouradev-ui-demo)
 
 ![PivotGrid: protótipo com todas as opções](https://raw.githubusercontent.com/antoniobrunomourateixeira/brunomouradev-ui/main/docs/prints/06-pivot-visao-geral.png)

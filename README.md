@@ -7,7 +7,7 @@ O visual se adapta ao projeto: `configure({ theme: 'bootstrap4' | 'bootstrap5' |
 ## Links
 
 - **Este projeto (código-fonte):** https://github.com/antoniobrunomourateixeira/brunomouradev-ui
-- **Exemplo rodando online:** DataGrid https://antoniobrunomourateixeira.github.io/brunomouradev-ui-demo/#/datagrid · PivotGrid https://antoniobrunomourateixeira.github.io/brunomouradev-ui-demo/#/pivot
+- **Exemplo rodando online:** DataGrid https://antoniobrunomourateixeira.github.io/brunomouradev-ui-demo/#/datagrid · PivotGrid (vendas) https://antoniobrunomourateixeira.github.io/brunomouradev-ui-demo/#/pivot/vendas · PivotGrid (carteira de cobrança) https://antoniobrunomourateixeira.github.io/brunomouradev-ui-demo/#/pivot/cobranca
 - **Código do exemplo** (Angular 20, todas as opções da DataGrid e do PivotGrid, métodos, eventos e o código em Angular, React, Vue e HTML puro): https://github.com/antoniobrunomourateixeira/brunomouradev-ui-demo
 - **npm:** [@brunomouradev/data-grid](https://www.npmjs.com/package/@brunomouradev/data-grid) · [@brunomouradev/pivot-grid](https://www.npmjs.com/package/@brunomouradev/pivot-grid) · [@brunomouradev/tree-list](https://www.npmjs.com/package/@brunomouradev/tree-list)
 
