@@ -1,6 +1,6 @@
 {
   "name": "@brunomouradev/tree-list",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "TreeList Web Component — tabela em árvore com expandir/recolher, ordenação, filtro, busca, seleção em cascata, totais por nível e exportação Excel/CSV. Funciona em Angular, React, Vue ou HTML puro.",
   "license": "MIT",
   "author": "brunomouradev",
@@ -51,7 +51,7 @@
     "typecheck": "tsc -p tsconfig.json --noEmit"
   },
   "dependencies": {
-    "@brunomouradev/data-grid": "0.1.5",
+    "@brunomouradev/data-grid": "0.1.6",
     "lit": "3.2.1"
   },
   "publishConfig": {

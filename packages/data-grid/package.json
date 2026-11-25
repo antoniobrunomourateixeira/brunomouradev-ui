@@ -1,6 +1,6 @@
 {
   "name": "@brunomouradev/data-grid",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "DataGrid Web Component — ordenação, filtro, busca, paginação, seleção, totais e exportação CSV. Funciona em Angular, React, Vue ou HTML puro.",
   "license": "MIT",
   "author": "brunomouradev",
