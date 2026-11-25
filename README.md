@@ -7,8 +7,8 @@ O visual se adapta ao projeto: `configure({ theme: 'bootstrap4' | 'bootstrap5' |
 ## Links
 
 - **Este projeto (código-fonte):** https://github.com/antoniobrunomourateixeira/brunomouradev-ui
-- **Exemplo rodando online:** https://antoniobrunomourateixeira.github.io/datagrid-prototipo/
-- **Exemplo completo da DataGrid** (Angular 20, todas as opções, métodos, eventos e o código em Angular, React, Vue e HTML puro): https://github.com/antoniobrunomourateixeira/datagrid-prototipo
+- **Exemplo rodando online:** DataGrid https://antoniobrunomourateixeira.github.io/datagrid-prototipo/#/datagrid · PivotGrid https://antoniobrunomourateixeira.github.io/datagrid-prototipo/#/pivot
+- **Código do exemplo** (Angular 20, todas as opções da DataGrid e do PivotGrid, métodos, eventos e o código em Angular, React, Vue e HTML puro): https://github.com/antoniobrunomourateixeira/datagrid-prototipo
 - **npm:** [@brunomouradev/data-grid](https://www.npmjs.com/package/@brunomouradev/data-grid) · [@brunomouradev/pivot-grid](https://www.npmjs.com/package/@brunomouradev/pivot-grid) · [@brunomouradev/tree-list](https://www.npmjs.com/package/@brunomouradev/tree-list)
 
 ![DataGrid: protótipo com todas as opções](docs/prints/01-visao-geral.png)
@@ -20,6 +20,14 @@ O visual se adapta ao projeto: `configure({ theme: 'bootstrap4' | 'bootstrap5' |
 | 100 mil linhas com rolagem virtual | Código gerado e eventos |
 |---|---|
 | ![100 mil linhas](docs/prints/05-100-mil-linhas.png) | ![Código e eventos](docs/prints/04-codigo-e-eventos.png) |
+
+**PivotGrid**
+
+![PivotGrid: protótipo com todas as opções](docs/prints/06-pivot-visao-geral.png)
+
+| Layout tabular e escala de cores | Drill down numa DataGrid |
+|---|---|
+| ![Pivot tabular](docs/prints/07-pivot-tabular-cores.png) | ![Drill down](docs/prints/08-pivot-drill-down.png) |
 
 | Pacote | Tag | O que faz |
 |---|---|---|
