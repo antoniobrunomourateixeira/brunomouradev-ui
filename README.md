@@ -25,7 +25,7 @@ O visual se adapta ao projeto: `configure({ theme: 'bootstrap4' | 'bootstrap5' |
 
 ![PivotGrid: protótipo com todas as opções](docs/prints/06-pivot-visao-geral.png)
 
-| Layout tabular e escala de cores | Drill down numa DataGrid |
+| Lucro e unidades por produto e canal (tabular, regra de meta) | Drill down numa DataGrid |
 |---|---|
 | ![Pivot tabular](docs/prints/07-pivot-tabular-cores.png) | ![Drill down](docs/prints/08-pivot-drill-down.png) |
 
